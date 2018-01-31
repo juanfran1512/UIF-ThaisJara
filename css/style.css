@@ -1481,6 +1481,7 @@ article img.pull-right, article .align-right{
 }
 .features .media.service-box {
   /* margin: 0px 0 25px; */
+  height:300px;
   padding: 10px 0px 0px;
   background: transparent;
   border: 0px;

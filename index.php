@@ -73,19 +73,20 @@ include('default/header.php');
 	<div class="container">
 		<div class="row">
                 <div class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 0ms;">
+                    <div class="col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 0ms;">
                         <div class="media service-box">
                             <div class="pull-left">
                                 <i class="fa fa-bullseye"></i>
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Agentes Físicos:</h4>
-                                <p>Son medios que utilizamos para aplicar tratamientos que mejoren y fortalezcan la condición y salud del paciente. (Electroestimulación, ultrasonido, luz infrarroja, parafina, magneto, compresas calientes y frías)</p>
+                                
+                                <h4 class="media-heading">Ejercicios Terapéuticos: </h4>
+                                <p>Son actividades programadas con el objetivo de recuperar una función alterada.El ejercicio no solo una forma de tratamiento de diferentes afecciones, sino que permite prevenir alteraciones del movimiento corporal.</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
 
-                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="100ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 100ms;">
+                    <div class="col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="100ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 100ms;">
                         <div class="media service-box">
                             <div class="pull-left">
                                 <i class="fa fa-bullseye"></i>
@@ -97,7 +98,7 @@ include('default/header.php');
                         </div>
                     </div><!--/.col-md-4-->
 
-                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="200ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 200ms;">
+                    <div class="col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="200ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 200ms;">
                         <div class="media service-box">
                             <div class="pull-left">
                                 <i class="fa fa-bullseye"></i>
@@ -109,41 +110,21 @@ include('default/header.php');
                         </div>
                     </div><!--/.col-md-4-->
                 
-                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 300ms;">
+                    <div class="col-md-6 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 300ms;">
                         <div class="media service-box">
                             <div class="pull-left">
                                 <i class="fa fa-bullseye"></i>
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Ejercicios Terapéuticos: </h4>
-                                <p>Son actividades programadas con el objetivo de recuperar una función alterada.El ejercicio no solo una forma de tratamiento de diferentes afecciones, sino que permite prevenir alteraciones del movimiento corporal.</p>
+                                <h4 class="media-heading">Agentes Físicos:</h4>
+                                <p>Son medios que utilizamos para aplicar tratamientos que mejoren y fortalezcan la condición y salud del paciente. (Electroestimulación, ultrasonido, luz infrarroja, parafina, magneto, compresas calientes y frías)</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
 
-                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 400ms;">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-bullseye"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Economia</h4>
-                                <p>Contamos con precios competitivos.</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
 
-                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="500ms" style="visibility: visible; -webkit-animation-duration: 300ms; -webkit-animation-delay: 500ms;">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-bullseye"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Experiencia</h4>
-                                <p>Coloque su salud y bienestar en manos de profesionales.</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
+
+
                 </div>
             </div>	 
 	 
@@ -188,7 +169,7 @@ include('default/header.php');
                         <a href="services.html"><img src="img/fisioterapia-infantil.jpg" alt="" style="height: 230px;"></a>
                         <a href="services.html">
                             
-                            <p>Fisioterapia Infantil.</p>
+                            
                         </a>
                     </div>
                 </div>
@@ -197,7 +178,7 @@ include('default/header.php');
                         <a href="services.html"><img src="img/fisioterapia-ocupacional.jpg" alt="" style="height: 230px;"></a>
                         <a href="services.html">
                             
-                            <p>Fisioterapia Ocupacional.</p>
+                            
                         </a>
                     </div>
                 </div>
@@ -206,7 +187,7 @@ include('default/header.php');
                         <a href="services.html"><img src="img/fisioterapia-personal.jpg" alt="" style="height: 230px;"></a>
                         <a href="services.html">
                             
-                            <p>Fisioterapia Personal</p>
+                            
                         </a>
                     </div>
                 </div>
