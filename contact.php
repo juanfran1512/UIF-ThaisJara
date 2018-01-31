@@ -12,31 +12,38 @@ $comment = ($_GET['comment']) ?$_GET['comment'] : $_POST['comment'];
 if ($_POST) $post=1;
 
 //Simple server side validation for POST data, of course, you should validate the email
-if (!$name) $errors[count($errors)] = 'Please enter your name.';
-if (!$email) $errors[count($errors)] = 'Please enter your email.'; 
-if (!$comment) $errors[count($errors)] = 'Please enter your message.'; 
+if (!$name) $errors[count($errors)] = 'Por favor introduzca su nombre.';
+if (!$email) $errors[count($errors)] = 'Por favor introduzca su correo.'; 
+if (!$comment) $errors[count($errors)] = 'Por favor introduzca su mensaje.'; 
+$email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+ 
+  if(!preg_match($email_exp,$email)) {
+ 
+    $errors[count($errors)]= 'La dirección de correo proporcionada no es válida.<br />';
+ 
+  }
 
 //if the errors array is empty, send the mail
 if (!$errors) {
 
 	//recipient - replace your email here
-	$to = 'samson3d@gmail.com';	
+	$to = 'juan.spinformatica@gmail.com';	
 	//sender - from the form
 	$from = $name . ' <' . $email . '>';
 	
 	//subject and the html message
-	$subject = 'Message from ' . $name;	
-	$message = 'Name: ' . $name . '<br/><br/>
-		       Email: ' . $email . '<br/><br/>		
-		       Message: ' . nl2br($comment) . '<br/>';
+	$subject = 'Mensaje de ' . $name;	
+	$message = 'Nombre: ' . $name . '<br/><br/>
+		       Correo: ' . $email . '<br/><br/>		
+		       Mensaje: ' . nl2br($comment) . '<br/>';
 
 	//send the mail
 	$result = sendmail($to, $subject, $message, $from);
 	
 	//if POST was used, display the message straight away
 	if ($_POST) {
-		if ($result) echo 'Thank you! We have received your message.';
-		else echo 'Sorry, unexpected error. Please try again later';
+		if ($result) echo 'Gracias! Hemos recibido su mensaje.';
+		else echo 'Disculpe, ocurrio un error desconocido. Por favor intentelo de nuevo mas tarde';
 		
 	//else if GET was used, return the boolean value so that 
 	//ajax script can react accordingly
@@ -57,7 +64,7 @@ if (!$errors) {
 //Simple mail function with HTML header
 function sendmail($to, $subject, $message, $from) {
 	$headers = "MIME-Version: 1.0" . "\r\n";
-	$headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
+	$headers .= "Content-type:text/html;charset=iso-utf-8" . "\r\n";
 	$headers .= 'From: ' . $from . "\r\n";
 	
 	$result = mail($to,$subject,$message,$headers);

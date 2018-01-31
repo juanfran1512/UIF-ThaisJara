@@ -49,7 +49,7 @@
 		</div>
 									<div class="contact-form">
 											
-		<form method="post" action="contact.php" id="contactform" class="contact">
+		<form method="post" action="send_form_email.php" id="contactform" class="contact">
 											<div class="form-group has-feedback">
 												<label for="name">Nombre*</label>
 												<input type="text" class="form-control" name="name" placeholder="">
