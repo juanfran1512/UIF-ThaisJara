@@ -155,7 +155,7 @@ include('default/header.php');
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="aligncenter"><h2 class="aligncenter">Responsabilidad</h2>Especializados en el tratamiento contínuo de los pacientes y seguimiento de la recuperación de los mismos, para que usted sienta un cambio sustancial en sus lesiones.</div>
+				<div class="aligncenter"><h6 class="aligncenter">Responsabilidad</h6>Especializados en el tratamiento contínuo de los pacientes y seguimiento de la recuperación de los mismos, para que usted sienta un cambio sustancial en sus lesiones.</div>
 				<br/>
 			</div>
 		</div> 
