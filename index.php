@@ -79,8 +79,8 @@ include('default/header.php');
                                 <i class="fa fa-bullseye"></i>
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">T.E.N.S.</h4>
-                                <p>Trabajamos con electroestimulación transcutánea de los nervios.</p>
+                                <h4 class="media-heading">Agentes Físicos:</h4>
+                                <p>Son medios que utilizamos para aplicar tratamientos que mejoren y fortalezcan la condición y salud del paciente. (Electroestimulación, ultrasonido, luz infrarroja, parafina, magneto, compresas calientes y frías)</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -91,8 +91,8 @@ include('default/header.php');
                                 <i class="fa fa-bullseye"></i>
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Ejercicios</h4>
-                                <p>Contamos con maquinas de hacer ejercicios en nuestras instalaciones.</p>
+                                <h4 class="media-heading">Técnicas Manuales:</h4>
+                                <p>Son un  conjunto de métodos y actos con la fines terapéuticos y/o preventivos que aplicamos manualmente sobre los tejidos musculares, óseos, conjuntivos y nerviosos, para obtener de forma directa y/o refleja, reacciones fisiológicas que equilibran y normalizan las diversas alteraciones musculares, osteoarticulares, orgánicas y funcionales, así como sus manifestaciones dolorosas. </p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -103,8 +103,8 @@ include('default/header.php');
                                 <i class="fa fa-bullseye"></i>
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Recuperación</h4>
-                                <p>Lo guiamos en ejercicios prácticos que puede realizar en la comodidad de su casa para una mejor recuperación.</p>
+                                <h4 class="media-heading">Mecanoterapia:</h4>
+                                <p>Contamos con aparatos mecánicos destinados a provocar y dirigir movimientos corporales regulados en su fuerza, trayectoria y amplitud. Bajo supervisión del fisioterapeuta, para garantizar la efectividad de los mismos.</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -115,8 +115,8 @@ include('default/header.php');
                                 <i class="fa fa-bullseye"></i>
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Cercania</h4>
-                                <p>Estamos ubicados en una zona centrica de la ciudad.</p>
+                                <h4 class="media-heading">Ejercicios Terapéuticos: </h4>
+                                <p>Son actividades programadas con el objetivo de recuperar una función alterada.El ejercicio no solo una forma de tratamiento de diferentes afecciones, sino que permite prevenir alteraciones del movimiento corporal.</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
