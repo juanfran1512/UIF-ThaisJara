@@ -23,8 +23,15 @@ a:active {
 .clear {
 	clear:both;
 }
-
-h1,h2, h3, h4, h5, h6 {
+h2{
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 100px;
+    line-height: 1.1em;
+    color: #fff;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+h1, h3, h5, h4 {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-weight:700;
 	line-height:1.1em;
@@ -34,6 +41,14 @@ h1,h2, h3, h4, h5, h6 {
 h3{
 margin-bottom:15px;
 } 
+h6{
+font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 31px;
+    line-height: 1.1em;
+    color: #fff;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
 .container {
 	padding:0 20px 0 20px;
 	position:relative;
@@ -1592,7 +1607,41 @@ article img.pull-right, article .align-right{
   -o-transition: border linear 0.2s,box-shadow linear 0.2s;
   transition: border linear 0.2s,box-shadow linear 0.2s;
 }
-
+/**parallax**/
+.parallax {
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: center center;
+}
+.bg-image-2 {
+    background: url('../img/fisioterapia-rodilla.jpg') no-repeat center fixed;
+    height: 300px;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.section {
+    position: relative;
+    padding: 88px 0 67px 0;
+    display: block;
+}
+.cta-txt h3 {
+    
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+.cta-txt p
+{
+	color: #fff;
+}
+/****/
 
 /*  Media queries 
 ============================= */

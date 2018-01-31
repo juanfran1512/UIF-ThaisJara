@@ -13,7 +13,7 @@
 <link href="css/flexslider.css" rel="stylesheet" />
 <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" />
- 
+ <link rel="shortcut icon" href="img/THAIS-JARA.ico">
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,30 +23,10 @@
 <body>
 <div id="wrapper" class="home-page">
 	<!-- start header -->
-	<header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
-                </div>
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Inicio</a></li> 
-						<li><a href="about.html">¿Quienes Somos?</a></li>
-						<li><a href="services.html">Servicios</a></li>
-                        <li><a href="courses.html">Cursos</a></li>
-                        <li><a href="pricing.html">Precios</a></li>
-                        <li><a href="contact.html">Contacto</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-	</header>
+	<?php
+include('default/header.php'); 
+?>
+
 	<!-- end header -->
 	<section id="banner">
 	 
@@ -56,8 +36,8 @@
               <li>
                 <img src="img/slides/1.jpg" alt="" />
                 <div class="flex-caption container">
-                    <h4>Unidad Integral de Fisioterapia</h4> 
-					<h3>Thais Jara</h3> 
+                    <h6>Unidad Integral de Fisioterapia</h6> 
+					<h2>Thais Jara</h2> 
 					<a href="#" class="btn btn-theme">Leer más</a>
                 </div>
               </li>
@@ -78,7 +58,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="aligncenter"><h1 class="aligncenter">Beneficios</h1>Contamos con un personal capacitado en las técnicas más modernas con herramientas tecnológicas para brindarle un servicio de calidad.</div>
+				<div class="aligncenter"><h1 class="aligncenter">Beneficios</h1> Somos con un personal profesional altamente capacitado en Terapia Física. Ganado para brindarle un servicio de calidad.
+                </div>
 				
 			</div>
 		</div>
@@ -174,7 +155,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="aligncenter"><h2 class="aligncenter">Responsabilidad</h2>Especializados en tratamiento continuo de los pacientes y seguimiento de la recuperación de los mismos para que usted sienta una mejora sustancial en sus dolencias.</div>
+				<div class="aligncenter"><h2 class="aligncenter">Responsabilidad</h2>Especializados en el tratamiento contínuo de los pacientes y seguimiento de la recuperación de los mismos, para que usted sienta un cambio sustancial en sus lesiones.</div>
 				<br/>
 			</div>
 		</div> 
@@ -234,57 +215,9 @@
 	</section>
  
 	<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Dirección</h5>
-					<address>
-					
-					Avenida 34 entre Calles 34 y 35 Edif. Residencias Ana María  Piso PB local 02  <br>
-					Sector Centro Acarigua-Estado Portuguesa. Venezuela</address>
-					<p>
-						<i class="fa fa-phone"></i> (0255) 6229804 <br>
-						<i class="fa fa-envelope"></i> fisioterapiathaisjara@hotmail.com
-					</p>
-				</div>
-			</div>
-
-			<div class="col-lg-3" style="float: right;">
-				<div class="widget">
-					<h5 class="widgetheading">Links de Interes</h5>
-					<ul class="link-list">
-						<li><a href="#">Manufacturas R.J. Atlantico</a></li>
-						<li><a href="#">Cottonblue.ve</a></li>
-						<li><a href="#">Juan Rodriguez Desings</a></li>
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-	<div id="sub-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="copyright">
-						<p>
-							<span>&copy; U.I.F. Thais Jara 2018 Todos los derechos reservados</span>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+	<?php
+include('default/footer.php'); 
+?>
 	</footer>
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
