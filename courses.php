@@ -41,8 +41,8 @@
 			<div class="col-lg-12">
 				<ul class="portfolio-categ filter">
 					<li class="all active"><a href="#">Todos</a></li>
-					<li class="web"><a href="#" title="">Hipoterapia</a></li>
-					<li class="icon"><a href="#" title="">Fisioterapia</a></li>
+					<li class="hipoterapia"><a href="#" title="">Hipoterapia</a></li>
+					<li class="fisioterapia"><a href="#" title="">Fisioterapia</a></li>
 					
 				</ul>
 				<div class="clearfix">
@@ -51,90 +51,90 @@
 					<section id="projects">
 					<ul id="thumbs" class="portfolio">
 						<!-- Item Project and Filter Name -->
-						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
+						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="hipoterapia">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/1.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/hipoterapia1.jpg">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/1.jpg" alt="">
+						<img src="img/works/hipoterapia1.jpg" alt="">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
-						<li class="item-thumbs col-lg-3 design" data-id="id-1" data-type="icon">
+						<li class="item-thumbs col-lg-3 design" data-id="id-1" data-type="fisioterapia">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/2.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/fisioterapia1.jpg">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/2.jpg" alt="">
+						<img src="img/works/fisioterapia1.jpg" alt="">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
-						<li class="item-thumbs col-lg-3 photography" data-id="id-2" data-type="graphic">
+						<li class="item-thumbs col-lg-3 photography" data-id="id-2" data-type="hipoterapia">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/3.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/hipoterapia2.jpg">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/3.jpg" alt="">
+						<img src="img/works/hipoterapia2.jpg" alt="">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
-						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
+						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="hipoterapia">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/4.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/hipoterapia3.jpg">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/4.jpg" alt="">
+						<img src="img/works/hipoterapia3.jpg" alt="">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
-						<li class="item-thumbs col-lg-3 photography" data-id="id-4" data-type="web">
+						<li class="item-thumbs col-lg-3 photography" data-id="id-4" data-type="fisioterapia">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/5.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/fisioterapia2.jpg">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/5.jpg" alt="">
+						<img src="img/works/fisioterapia2.jpg" alt="">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
-						<li class="item-thumbs col-lg-3 photography" data-id="id-5" data-type="icon">
+						<li class="item-thumbs col-lg-3 photography" data-id="id-5" data-type="fisioterapia">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/6.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/fisioterapia3.jpg">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/6.jpg" alt="">
+						<img src="img/works/fisioterapia3.jpg" alt="">
 						</li>
 						<!-- End Item Project -->
-						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
+						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="fisioterapia">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/7.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/fisioterapia4.jpg">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/7.jpg" alt="">
+						<img src="img/works/fisioterapia4.jpg" alt="">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
-						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="graphic">
+						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="hipoterapia">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/8.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/hipoterapia4.jpg">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/8.jpg" alt="">
+						<img src="img/works/hipoterapia4.jpg" alt="">
 						</li>
 						<!-- End Item Project -->
 					</ul>

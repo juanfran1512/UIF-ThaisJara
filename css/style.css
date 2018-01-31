@@ -719,6 +719,7 @@ padding: 40px 0 0;
 	overflow: hidden;
 	margin-bottom: 30px;
 	cursor: pointer;
+	height: 290px;
 }
 
 .item-thumbs a + img {
@@ -755,7 +756,7 @@ transform: rotate(0deg) scale(0.775) skew(1deg) translate(0px);
 .item-thumbs .hover-wrap .overlay-img {
 	position: absolute;
 	width: 90%;
-height: 100%;
+height: 90%;
 opacity: 0.80;
 filter: alpha(opacity=80);
 background: #009688;

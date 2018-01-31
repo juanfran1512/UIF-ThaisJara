@@ -58,7 +58,7 @@ include('default/header.php');
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="aligncenter"><h1 class="aligncenter">Beneficios</h1> Somos con un personal profesional altamente capacitado en Terapia Física. Ganado para brindarle un servicio de calidad.
+				<div class="aligncenter"><h1 class="aligncenter">Beneficios</h1> Somos un personal profesional altamente capacitado en Terapia Física. Ganado para brindarle un servicio de calidad.
                 </div>
 				
 			</div>
@@ -79,9 +79,8 @@ include('default/header.php');
                                 <i class="fa fa-bullseye"></i>
                             </div>
                             <div class="media-body">
-                                
-                                <h4 class="media-heading">Ejercicios Terapéuticos: </h4>
-                                <p>Son actividades programadas con el objetivo de recuperar una función alterada.El ejercicio no solo una forma de tratamiento de diferentes afecciones, sino que permite prevenir alteraciones del movimiento corporal.</p>
+                                <h4 class="media-heading">Agentes Físicos:</h4>
+                                <p>Son medios que utilizamos para aplicar tratamientos que mejoren y fortalezcan la condición y salud del paciente. (Electroestimulación, ultrasonido, luz infrarroja, parafina, magneto, compresas calientes y frías)</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -93,7 +92,7 @@ include('default/header.php');
                             </div>
                             <div class="media-body">
                                 <h4 class="media-heading">Técnicas Manuales:</h4>
-                                <p>Son un  conjunto de métodos y actos con la fines terapéuticos y/o preventivos que aplicamos manualmente sobre los tejidos musculares, óseos, conjuntivos y nerviosos, para obtener de forma directa y/o refleja, reacciones fisiológicas que equilibran y normalizan las diversas alteraciones musculares, osteoarticulares, orgánicas y funcionales, así como sus manifestaciones dolorosas. </p>
+                                <p>Son un conjunto de métodos y actos con la fines terapéuticos y/o preventivos que aplicamos manualmente sobre los tejidos musculares, óseos, conjuntivos y nerviosos, para obtener de forma directa y/o refleja, reacciones fisiológicas que equilibran y normalizan las diversas alteraciones musculares, osteoarticulares, orgánicas y funcionales, así como sus manifestaciones dolorosas. </p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -116,8 +115,8 @@ include('default/header.php');
                                 <i class="fa fa-bullseye"></i>
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Agentes Físicos:</h4>
-                                <p>Son medios que utilizamos para aplicar tratamientos que mejoren y fortalezcan la condición y salud del paciente. (Electroestimulación, ultrasonido, luz infrarroja, parafina, magneto, compresas calientes y frías)</p>
+                                <h4 class="media-heading">Ejercicios Terapéuticos: </h4>
+                                <p>Son actividades programadas con el objetivo de recuperar una función alterada.El ejercicio no solo una forma de tratamiento de diferentes afecciones, sino que permite prevenir alteraciones del movimiento corporal.</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -136,7 +135,7 @@ include('default/header.php');
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="aligncenter"><h6 class="aligncenter">Responsabilidad</h6>Especializados en el tratamiento contínuo de los pacientes y seguimiento de la recuperación de los mismos, para que usted sienta un cambio sustancial en sus lesiones.</div>
+				<div class="aligncenter"><h6 class="aligncenter">Responsabilidad</h6><div class="comentario" style="color:#fff;">Especializados en el tratamiento contínuo de los pacientes y seguimiento de la recuperación de los mismos, para que usted sienta un cambio sustancial en sus lesiones.</div></div>
 				<br/>
 			</div>
 		</div> 
@@ -146,10 +145,10 @@ include('default/header.php');
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
-								<p>La Lic. en Fisioterapia Thais Jara cuenta con más de 15 años ofreciendo sus servicios a cientos de clientes en las ciudades gemelas, ademas de haber realizado estudios de Hipoterapia en Barcelona españa, cuenta con la experiencia de dictar cursos a nivel nacional para fundaciones de hipoterapia y personas que quieren incursar en esta fascinante rama de la terapia con equinos, ademas de contar con un grupo de profesionales en el cuidado y tratamiento de caballos.</p>
 								
-								<ul class="list-unstyled">
-									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Excelencia</li>
+								
+								<ul class="list-unstyled" style="font-size: 30px;line-height: 3;">
+									<li><i class="fa fa-arrow-circle-right pr-20 colored"></i> Excelencia</li>
 									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Compromiso</li>
 									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Atención</li>
 									<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Puntualidad</li>
